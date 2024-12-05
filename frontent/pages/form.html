@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container form" >
+            
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name">
+                <label for="gender">Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+                <label for="blood-group">Blood Group:</label>
+                <select id="blood" >
+                    <option value="" disabled selected>Select Blood Group</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                </select>
+
+                <label for="address">Address:</label>
+                <textarea id="address" placeholder="Enter your address"></textarea>
+
+                <label for="number">Phone Number:</label>
+                <input type="number" id="number" placeholder="Enter your phone number">
+
+                <button id="submit" >Submit</button>
+            
+        </div>
+    </div>
+
+    <script src="../js/index.js">
+
+    </script>
+</body>
+</html>
